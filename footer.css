@@ -1,0 +1,52 @@
+.footer {
+  text-align: center;
+  padding: 2.5rem 1.5rem 2rem;
+  background: #1a1a1a;
+  border-top: 3px solid #cc0000;
+}
+.footer-img-logo {
+  width: 90px; height: 90px;
+  object-fit: contain; margin-bottom: 0.4rem;
+}
+.footer-school {
+  font-size: 13px; color: #aaa;
+  letter-spacing: 0.05em; margin-bottom: 1.75rem;
+}
+.footer-title {
+  font-size: 11px; text-transform: uppercase;
+  letter-spacing: 0.1em; color: #888; margin-bottom: 1.5rem;
+}
+.students {
+  display: flex; justify-content: center;
+  gap: 3rem; flex-wrap: wrap; margin-bottom: 2rem;
+}
+.student {
+  display: flex; flex-direction: column;
+  align-items: center; gap: 6px;
+}
+.stu-name {
+  font-family: 'Georgia', serif; font-size: 15px;
+  font-weight: bold; color: #fff; letter-spacing: 0.04em;
+}
+.stu-class {
+  font-size: 12px; color: #cc0000;
+  font-weight: bold; letter-spacing: 0.06em; text-transform: uppercase;
+}
+.circle-logo {
+  width: 90px; height: 90px; border-radius: 50%;
+  border: 2px solid #cc0000; background: #000;
+  overflow: hidden; display: flex;
+  align-items: center; justify-content: center; margin: 6px 0;
+}
+.circle-logo img { width: 100%; height: 100%; object-fit: cover; }
+.stu-sig {
+  font-family: 'Brush Script MT', 'Segoe Script', cursive;
+  font-size: 20px; color: #e8a020;
+  border-bottom: 1px solid #444; padding-bottom: 3px; min-width: 140px;
+}
+.stu-phone {
+  font-family: 'Courier New', monospace;
+  font-size: 13px; color: #aaa; letter-spacing: 0.08em;
+}
+.footer-note { font-size: 12px; color: #666; margin-top: 0.5rem; }
+.footer-note strong { color: #cc0000; }
